@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"  
+    >
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/img_1"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-161dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="142dp"
+        android:layout_height="61dp"
+        app:srcCompat="@drawable/img_2"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="521dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="142dp"
+        android:layout_height="61dp"
+        app:srcCompat="@drawable/img_2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="449dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="142dp"
+        android:layout_height="61dp"
+        app:srcCompat="@drawable/img_4"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="582dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        app:srcCompat="@drawable/img_5"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="676dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="60dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/img_6"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="60dp"
+        android:layout_height="65dp"
+        app:srcCompat="@drawable/img_7"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="364dp"
+        tools:layout_editor_absoluteY="676dp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="25dp"
+        android:layout_height="27dp"
+        app:srcCompat="@drawable/img_9"
+        tools:layout_editor_absoluteX="382dp"
+        tools:layout_editor_absoluteY="694dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User name"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="541dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="597dp" />
+    >
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
